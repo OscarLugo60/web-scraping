@@ -19,9 +19,9 @@ if response.status_code == 200:
 hoy = datetime.today()
 
 conexion = psycopg2.connect(
-    database="labdb",
-    user="oscar",
-    password="oscar1234"
+    database="",
+    user="",
+    password=""
 )
 
 cursor1=conexion.cursor()
